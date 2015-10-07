@@ -35,7 +35,8 @@ def div(a, b):
 
 
 # -------------------------------------------------------- #
-
+def mol(a,b):
+    return a % b
 
 # -------------------------------------------------------- #
 # -- MAIN FUNCTIONAILTY -- DO NOT EDIT ------------------- #
@@ -67,6 +68,8 @@ while (True):
             print "Product: ", mult(a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
+        elif (op == "%"):
+            print "Modulus: ", mod(a,b)
         else:
             print "Invalid operation..."
 
